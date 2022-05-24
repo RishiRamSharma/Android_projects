@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="tv1_text">"  "</string>
+    <string name="enter_user_name">Enter user name</string>
+    <string name="enter_password">Enter password</string>
+</resources>

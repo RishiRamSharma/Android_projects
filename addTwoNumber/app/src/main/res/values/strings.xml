@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">addTwoNumber</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv1_text">Results :</string>
+    <string name="tv2_text">0</string>
+    <string name="type_first_number">Type First Number</string>
+    <string name="type_second_number">Type Second Number</string>
+    <string name="button">Add</string>
+</resources>
