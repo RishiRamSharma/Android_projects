@@ -28,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
         edt_uname=(EditText) findViewById((R.id.edt_uname));
         edt_pass=(EditText) findViewById(R.id.edt_pass);
         btn_login=(Button) findViewById(R.id.btn_login);
-        View edt_name = null;
-        edt_name.setOnTouchListener(new View.OnTouchListener() {
-            @SuppressLint("ClickableViewAccessibility")
+
+
+        edt_uname.setOnTouchListener(new View.OnTouchListener() {
+
             @Override
             public boolean onTouch(View arg0, MotionEvent arg1) {
                 tv_1.setText(" ");
@@ -43,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View arg0){
                 String uname= edt_uname.getText().toString();
                 String pass= edt_pass.getText().toString();
-                BreakIterator tv_text = null;
+
                 if ((uname.equals("ris"))&&(pass.equals("123"))){
-                    tv_text.setText("Valid User");
+                    tv_1.setText("Valid User");
                     Toast.makeText(MainActivity.this,"Valid User", Toast.LENGTH_LONG).show();
                 }
                 else {
-                    tv_text.setText("Invalid User");
+                    tv_1.setText("Invalid User");
                     Toast.makeText(MainActivity.this,"Invalid User",Toast.LENGTH_LONG).show();
                 }
             }
